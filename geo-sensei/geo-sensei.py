@@ -5,7 +5,7 @@
 
 # The code starts here:
 print("Starting...")
-print("Geo-sensei Version 1.14.1") # Using Qwen3 vision # Has indicator light (lamp)
+print("Geo-sensei Version 1.14.2") # Using Qwen3 vision # Has indicator light (lamp)
 
 import io
 import sys
