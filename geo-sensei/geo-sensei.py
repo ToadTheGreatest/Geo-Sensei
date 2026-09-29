@@ -5,7 +5,7 @@
 
 # The code starts here:
 print("Starting...")
-print("Geo-sensei Version 1.13.3") # Using Qwen3 vision # Has indicator light (lamp) # Integration with the custom-made Geo-Sensei HTML External Chatting System (MORE WEBSOCKET STUFF AAAA)
+print("Geo-sensei Version 1.14.0") # Removed Bloat # Using Qwen3 vision # Has indicator light (lamp)
 
 import io
 import sys
@@ -101,10 +101,6 @@ class GeoChatBot:
 
         self.thinking = False
 
-        self.extc_thread = threading.Thread(target=self.run_extc_server, daemon=True)
-        self.extc_thread.start()
-
-        
     
     def init_sr(self):
         threading.Thread(target=self.sr_worker,daemon=True).start()
@@ -525,26 +521,7 @@ class GeoChatBot:
 
             with open(self.memory_path, "w") as file:
                 json.dump(mem, file, indent=2)
-    
-    async def handle_extc_client(self, websocket):
-        print("External Chatting System has connected!")
-        try:
-            async for message in websocket:
-                print(f"[WEBSOCKETS] Received: {message}")
-                self.say_queue.put(message)
-        except websockets.exceptions.ConnectionClosed:
-            print("External Chatting System has Disconnected!")
-        except Exception as e:
-            print(f"Error: {e}")
 
-    async def start_external_chat_server(self):
-        # This hosts the server on port 8768
-        async with websockets.serve(self.handle_extc_client, "localhost", 8768):
-            print("External Chatting System server running on ws://localhost:8768")
-            await asyncio.Future()  # Keeps the server running forever
-    
-    def run_extc_server(self):
-        asyncio.run(self.start_external_chat_server())
 
 def main():
     global me_talking
