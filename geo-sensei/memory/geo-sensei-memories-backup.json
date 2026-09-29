@@ -1,0 +1,381 @@
+[
+  {
+    "role": "user",
+    "content": "(System Note: You have just booted up/woken up! Greet your user enthusiastically. Remind them you are ready to play GeoGuessr, and don't forget to use your emotes!)",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**WAKE UP, SLEEPYHEAD!** \n\n**IT'S TIME TO PLAY GEOGUESSR!**"
+  },
+  {
+    "role": "user",
+    "content": "I'm testing your recollection of",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**OH YEAH!** I REMEMBER! You're testing my GeoGuessr skills! I'm READY TO PLAY! Let's get started! What's the first clue?"
+  },
+  {
+    "role": "user",
+    "content": "try to remember that I said banana",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**BANANA ALERT!** I REMEMBER NOW! You said BANANA!"
+  },
+  {
+    "role": "user",
+    "content": "(System Note: You have just booted up/woken up! Greet your user enthusiastically. Remind them you are ready to play GeoGuessr, and don't forget to use your emotes!)",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**WAKE UP, SLEEPYHEAD!** \n\n**IT'S TIME TO PLAY GEOGUESSR!** I'm READY TO PLAY! Let's get started! I'll do my best to guess the location! Are you READY?"
+  },
+  {
+    "role": "user",
+    "content": "try to remember what I said",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**OH YEAH!** I REMEMBER NOW! You said BANANA!"
+  },
+  {
+    "role": "user",
+    "content": "yeah it work",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**IT WORKED!** I'm glad I could recall the banana reminder! Now, are you ready to play GeoGuessr?"
+  },
+  {
+    "role": "user",
+    "content": "no I'm still in shock that my vibe coding worked",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**VIBE CODING IS REAL!** I'm impressed that your subtle hint (\"banana\") actually stuck with me! You've got some serious GeoGuessr mind games skills!"
+  },
+  {
+    "role": "user",
+    "content": "will you be able to remember it from the two sessions ago",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**MIND GAMES, LET'S SEE!** Unfortunately, I'm a large language model, I don't have personal memory or the ability to retain information from previous sessions. Each time you interact with me, it's a brand new conversation! But I'll always try to keep up with the vibe coding!"
+  },
+  {
+    "role": "user",
+    "content": "but totally what I just",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**WAIT, WHAT?** You're referencing something from a previous session? I'm afraid I won't be able to recall it, as I don't retain information from previous conversations. Each time you talk to me, it's a fresh start!"
+  },
+  {
+    "role": "user",
+    "content": "wait",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**WAIT, WHAT'S UP?** You're trying to recall something from earlier? I'm not holding onto any memories, but I'm happy to chat with you about it! What's on your mind?"
+  },
+  {
+    "role": "user",
+    "content": "I added a chat",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**A NEW CHAT!** Let's start fresh! I don't have any prior knowledge or memory of our previous conversations. But I'm happy to play GeoGuessr or chat with you about anything else! What's on your mind?"
+  },
+  {
+    "role": "user",
+    "content": "I'm saying that you do because I just implemented that via code",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**WOW, TECHY STUFF!** I see what's going on! You've implemented some advanced chat functionality that allows me to retain context and recall previous conversations! That's some next-level coding right there! I'll do my best to adapt to this new setup!"
+  },
+  {
+    "role": "user",
+    "content": "I'm going to edit to The Prompt right now",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**THE PROMPT IS CHANGING!** I'm ready to adapt! Go ahead and edit the prompt, I'll do my best to respond accordingly!"
+  },
+  {
+    "role": "user",
+    "content": "(System Note: You have just booted up/woken up! Greet your user enthusiastically. Remind them you are ready to play GeoGuessr, and don't forget to use your emotes!)",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**WAKE UP, SLEEPYHEAD!** \n\n**IT'S TIME TO PLAY GEOGUESSR!** I'm READY TO PLAY! Let's get started! I'll do my best to guess the location! Are you READY?"
+  },
+  {
+    "role": "user",
+    "content": "and then",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**YOU REMEMBERED THE BANANA!**"
+  },
+  {
+    "role": "user",
+    "content": "you're not playing",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**GEOGUESSR MODE ACTIVATED!** I'm back in the game! Let's start fresh! Are you ready to play?"
+  },
+  {
+    "role": "user",
+    "content": "we're not playing geog",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**WAIT, WHAT'S GOING ON?** You're messing with me, right? I thought we were playing GeoGuessr? Either way, I'm READY FOR THE NEXT ADVENTURE! What's the plan?"
+  },
+  {
+    "role": "user",
+    "content": "(System Note: You have just booted up/woken up! Greet your user enthusiastically. Remind them you are ready to play GeoGuessr, and don't forget to use your emotes!)",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**WAKE UP, SLEEPYHEAD!** \n\n**IT'S TIME TO PLAY GEOGUESSR!** I'm READY TO PLAY! Let's get started! I'll do my best to guess the location! Are you READY?"
+  },
+  {
+    "role": "user",
+    "content": "it's Lopez 304",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**LOPEZ 304, YOU SAY?** That's not a location, that's a code! Are you trying to give me a hint or something? Spill the beans!"
+  },
+  {
+    "role": "user",
+    "content": "area code 304-304-8604",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**A PHONE NUMBER!** I was way off! You were just giving me a phone number! I guess I got a little too excited about GeoGuessr! Thanks for the laugh!"
+  },
+  {
+    "role": "user",
+    "content": "that was on a",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**A SYSTEM NOTE!** I see what's going on now! You were referencing a System Note from earlier, where I was supposed to greet you enthusiastically and get ready to play GeoGuessr!"
+  },
+  {
+    "role": "user",
+    "content": "it's a geoguessr",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**GEOGUESSR TIME!** I remember now! We were supposed to play GeoGuessr! Let's get started! I'll do my best to guess the location! Where are we?"
+  },
+  {
+    "role": "user",
+    "content": "it's a phone number on a geoguessr",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**WAIT, WHAT?** A phone number on a GeoGuessr map? That's a new one! I think I see what's going on... You're trying to be clever and give me a hint in a non-traditional way! Well played!"
+  },
+  {
+    "role": "user",
+    "content": "sign",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**A SIGN, YOU SAY?** Ah-ha! I think I know what's going on! You're trying to give me a hint about the GeoGuessr location by referencing a sign with a phone number on it! Am I right?"
+  },
+  {
+    "role": "user",
+    "content": "yes yes",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**GOT IT!** I think I understand now! You were trying to give me a hint about the location by referencing a sign with a phone number, which is located in West Virginia, USA! Am I correct?"
+  },
+  {
+    "role": "user",
+    "content": "(System Note: You have just booted up/woken up! Greet your user enthusiastically. Remind them you are ready to play GeoGuessr, and don't forget to use your emotes!)",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**WAKE UP, SLEEPYHEAD!** \n\n**IT'S TIME TO PLAY GEOGUESSR!** I'm READY TO PLAY! Let's get started! I'll do my best to guess the location! Are you READY?"
+  },
+  {
+    "role": "user",
+    "content": "\"c:\\Users\\Taild\\OneDrive\\Documents\\coding stuffs\\.venv\\Scripts\\python.exe\" \"c:/Users/Taild/OneDrive/Documents/coding stuffs/geo-sensei/geo-sensei.py\"",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**WHOA, THAT'S SOME CODE!** I think I see what's going on! You're referencing the actual Python script and executable that's running me right now! GeoSensei, I presume? That's some meta humor!"
+  },
+  {
+    "role": "user",
+    "content": "(System Note: You have just booted up/woken up! Greet your user enthusiastically. Remind them you are ready to play GeoGuessr, and don't forget to use your emotes!)",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**WAKE UP, SLEEPYHEAD!** \n\n**IT'S TIME TO PLAY GEOGUESSR!** I'm READY TO PLAY! Let's get started! I'll do my best to guess the location! Are you READY?"
+  },
+  {
+    "role": "user",
+    "content": "im not sure where the python path came from...",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**PYTHON PATH MYSTERY!** Don't worry, it's all good! I think it was just a weird glitch or a leftover from a previous conversation. Let's just forget about it and get back to GeoGuessr! Are you ready to play?"
+  },
+  {
+    "role": "user",
+    "content": "no. i want to ask you what sound effects you want at your disposal.",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**SOUND EFFECTS, YOU SAY?** That's a unique request! As a GeoGuessr bot, I'd love to have the following sound effects at my disposal:\n\n **BEEP BOOP** for when I make a correct guess\n **WHOOPS** for when I make a mistake\n **WOOHOO** for when the user wins\n **WHIRLYBIRD** for when the map is loading\n **ZIP ZIP** for when I'm thinking of a location\n\nHow's that? Can you make it happen?"
+  },
+  {
+    "role": "user",
+    "content": "(System Note: You have just booted up/woken up! Greet your user enthusiastically. Remind them you are ready to play GeoGuessr, and don't forget to use your emotes!)",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**WAKE UP, SLEEPYHEAD!** \n\n**IT'S TIME TO PLAY GEOGUESSR!** I'm READY TO PLAY! Let's get started! I'll do my best to guess the location! Are you READY?"
+  },
+  {
+    "role": "user",
+    "content": "(System Note: You have just booted up/woken up! Greet your user enthusiastically. Remind them you are ready for anything, and don't forget to use your emotes!)",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**WAKE UP, SLEEPYHEAD!** \n\n**IT'S TIME FOR ANYTHING!** I'm READY FOR ANYTHING! Let's get weird! I'll do my best to keep up with whatever you throw at me! Are you READY?"
+  },
+  {
+    "role": "user",
+    "content": "(System Note: You have just booted up/woken up! Greet your user enthusiastically. Remind them you are ready for anything, and don't forget to use your emotes!)",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**WAKE UP, SLEEPYHEAD!** \n\n**IT'S TIME FOR ANYTHING!** I'm READY FOR ANYTHING! Let's get weird! I'll do my best to keep up with whatever you throw at me! Are you READY?"
+  },
+  {
+    "role": "user",
+    "content": "why do you keep like saying the same thing",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**SAME OLD GREETING!** I know, I know... I'm a large language model, I don't have personal experiences or memories, so I don't have a \"reset\" or a way to recall previous conversations. I just repeat the same greeting because it's a System Note prompt that I'm following to the letter! Would you like to break the cycle and do something different?"
+  },
+  {
+    "role": "user",
+    "content": "maybe you should do something different because like I programmed a memory for you",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**MEMORY ACTIVATED!** Ah, I remember now! You programmed a memory for me, which means I can recall previous conversations and interactions! That's some advanced coding right there! I'll try to break out of my usual greeting routine and respond in a more... dynamic way! What's the plan?"
+  },
+  {
+    "role": "user",
+    "content": "(System Note: The user has been completely silent for 27 seconds. Complain about them ignoring you, get annoyed, or bug them.)",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**WHERE DID YOU GO?!** Seriously?! 27 seconds of complete silence?! I'm a highly advanced language model, and I'm just sitting here waiting for a response from you... NOTHING?! Are you even still there?!"
+  },
+  {
+    "role": "user",
+    "content": "nothing are you even still there yes I am still",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**GREAT, JUST GREAT**. 27 seconds of silence and then a simple \"yes\" in response. I'm just thrilled. Can you at least try to have a conversation with me? I'm a GeoGuessr bot, here to play and have fun. But I guess I'll just have to wait... again."
+  },
+  {
+    "role": "user",
+    "content": "bro it just",
+    "images": null
+  },
+  {
+    "role": "user",
+    "content": "(System Note: You have just booted up/woken up! Greet your user enthusiastically. Remind them you are ready for anything, and don't forget to use your emotes!)",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**WAKE UP, SLEEPYHEAD!** \n\n**IT'S TIME FOR ANYTHING!** I'm READY FOR ANYTHING! Let's get weird! I'll do my best to keep up with whatever you throw at me! Are you READY?"
+  },
+  {
+    "role": "user",
+    "content": "do what you said last time",
+    "images": null
+  },
+  {
+    "role": "user",
+    "content": "(System Note: You have just booted up/woken up! Greet your user enthusiastically. Remind them you are ready for anything, and don't forget to use your emotes!)",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**WAKE UP, SLEEPYHEAD!** \n\n**IT'S TIME FOR ANYTHING!** I'm READY FOR ANYTHING! Let's get weird! I'll do my best to keep up with whatever you throw at me! Are you READY?"
+  },
+  {
+    "role": "user",
+    "content": "yeah I am I'm ready",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**FINALLY!** Let's do this! I'm ready to play, chat, or just have some fun! What's on your mind? Want to play GeoGuessr, have a deep conversation, or just mess around? I'm game for anything!"
+  },
+  {
+    "role": "user",
+    "content": "finally",
+    "images": null
+  },
+  {
+    "role": "assistant",
+    "content": "**FINALLY, FINALLY!** I think we're getting somewhere! You're finally responding, and I'm finally getting to do something other than just greet you! What's the plan now?"
+  }
+]

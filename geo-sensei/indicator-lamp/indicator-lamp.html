@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geo-sensei Status</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent; /* 100% Transparent for OBS */
+            font-family: 'rounded', 'Arial Black', Impact, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="indicator-container">
+        <img id="indicator" src="./lamp-off.png">
+    </div>
+
+    <script>
+        const indicator = document.getElementById("indicator")
+
+        // Connect to Python's WebSocket Server
+        const ws = new WebSocket('ws://localhost:8767');
+
+        ws.onmessage = (event) => {
+
+            const data = JSON.parse(event.data);
+            
+            if (data.text) {
+                if (data.text == "red") {
+                    indicator.src="./lamp-red.png"
+                } else if (data.text == "yellow") {
+                    indicator.src="./lamp-yellow.png"
+                } else if (data.text == "green") {
+                    indicator.src="./lamp-green.png"
+                } else if (data.text == "blue") {
+                    indicator.src="./lamp-blue.png"
+                } else {
+                    indicator.src="./lamp-off.png"
+                }
+            }
+        };
+
+        ws.onclose = () => {
+            console.log("Disconnected from Geo-sensei backend. Retrying...");
+            setTimeout(() => { location.reload(); }, 2000);
+        };
+    </script>
+</body>
+</html>
