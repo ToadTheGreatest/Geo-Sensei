@@ -48,7 +48,7 @@ class GeoChatBot:
 
         self.needs_screen = False
         
-        self.memory_path = "C:/Users/Taild/OneDrive/Documents/coding stuffs/geo-sensei/memory/geo-sensei-memories.json" # Path to memory file
+        self.memory_path = "./memory/geo-sensei-memories.json" # Path to memory file
         self.use_memory = True # CONTROLS IF GEO-SENSEI IS ABLE TO RECOLLECT PAST EXPIRIENCES AND SAVE MEMORIES
 
         # Keep a history of the conversation for chatbot capabilities
@@ -67,7 +67,7 @@ class GeoChatBot:
         self.plugin_info = {
             "plugin_name": "Geo-sensei",
             "developer": "Ryan Jacob (ToadTheGreatest)",
-            "authentication_token_path": "C:/Users/Taild/OneDrive/Documents/coding stuffs/geo-sensei/vts_token.json"  # Saves token here
+            "authentication_token_path": "./vts_token.json"  # Saves token here
         }
         self.vts_loop = asyncio.new_event_loop()
         self.vts_thread = threading.Thread(target=self._run_vts_loop, daemon=True)
@@ -193,7 +193,7 @@ class GeoChatBot:
 
     def set_ai_memory(self):
         self.sound_effects = ""
-        self.sound_effect_path = Path("C:/Users/Taild/OneDrive/Documents/coding stuffs/geo-sensei/sound-effects")
+        self.sound_effect_path = Path("./sound-effects")
         self.sound_files = {}
         for file in self.sound_effect_path.glob("*.wav"):
             if file.is_file():
@@ -505,7 +505,7 @@ class GeoChatBot:
 
     def readMemory(self):
         if self.use_memory:
-            file = open("C:/Users/Taild/OneDrive/Documents/coding stuffs/geo-sensei/memory/geo-sensei-memories.json", "r")
+            file = open("./memory/geo-sensei-memories.json", "r")
             mem = json.load(file)
             file.close()
         else:
