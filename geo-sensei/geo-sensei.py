@@ -5,7 +5,7 @@
 
 # The code starts here:
 print("Starting...")
-print("Geo-sensei Version 1.13.2") # Using Qwen3 vision # Has indicator light (lamp) # Integration with the custom-made Geo-Sensei HTML External Chatting System (MORE WEBSOCKET STUFF AAAA)
+print("Geo-sensei Version 1.13.3") # Using Qwen3 vision # Has indicator light (lamp) # Integration with the custom-made Geo-Sensei HTML External Chatting System (MORE WEBSOCKET STUFF AAAA)
 
 import io
 import sys
@@ -43,6 +43,8 @@ class GeoChatBot:
             "[SURPRISED]",
             "[SAD2]",
         ]
+
+        self.canbored = False
 
         self.needs_screen = False
         
@@ -215,7 +217,7 @@ class GeoChatBot:
                             f'You must add sound effects to your prompts. The only available sound effects are {self.sound_effects}. The sound effects are wrapped in <> '
                             'If the user takes too long to reply, you will receive a system message telling you how many seconds have passed. React to this by getting impatient, teasing them, or complaining, and ALWAYS use your emotes! '
                             '**KEEP INTERNAL REASONING TO A MINIMUM** '
-                            '**LIVE FEED ACCESS:** You have access to the user\'s live screen. If the user asks where they are, or if you want to look at the game at ANY time to make a guess, output the exact tag [LOOK] . '
+                            '**LIVE FEED ACCESS:** You have access to the user\'s live screen. If the user asks where they are, or if you want to look at the game at ANY time to make a guess, output the exact tag [LOOK] and you will get an image in the next prompt. '
                             '**LONG TERM MEMORY** You possess a permanent memory of all past streams and interactions. The messages below your system instructions are real historical conversations from your previous sessions with the user. If the user asks you about something from a "past session," "last time," or "earlier," look down at your conversation history to find the answers! Acknowledge your memory happily and use it to call back to old jokes or facts. '
                             '**HOW TO CHOOSE YOUR MODE:** '
                             '* IF the user says "let\'s play geoguessr" or "we are playing geoguessr": You are playing GeoGuessr. Analyze Street View clues (poles, lines, soil, language, driving side, street names) and tell the user where they are. Crucial: If they haven\'t provided an image or description yet, do not make one up. Ask them to show you the map. '
@@ -223,7 +225,6 @@ class GeoChatBot:
                             '**RESPONSE GUIDELINES:** '
                             '* Keep answers short, concise, punchy, sassy, and silly. '
                             '* Do not use asterisks. '
-                            '* INSTEAD OF EMOJIS (example: 😊 or 👍), use text based emoticons (example: ^u^ or :D). '
                             '**EXAMPLES OF EMOTE USAGE:** '
                             '* "Hey there! [HAPPY] I\'m totally ready to help you out today! What are we doing?" '
                             '* "Wait, let me look closer... [SURPRISED] Is that a rift in the sky? That means we are in Senegal!" '
@@ -608,7 +609,7 @@ def main():
             
             time_since_bot_spoke = time.time() - last_bot_speak_time
             
-            if (time.time() - last_interaction_time) >= attention_timeout:
+            if (time.time() - last_interaction_time) >= attention_timeout and bot.canbored:
                 if time_since_bot_spoke > bored_timeout:
                     seconds_passed = int(time_since_bot_spoke)
                     #print(f"\n[System] Geo-sensei got bored! ({seconds_passed}s of silence)")
